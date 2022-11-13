@@ -29,10 +29,24 @@
   top: 30px;
 }
 
+.header__title {
+  width: 730px;
+}
+
+.header__subtitle {
+  width: 388px;
+}
+
+.header__main-illustration {
+  width: 765px;
+  height: 608px;
+}
+
 /* ниже мы привели пример двух селекторов, чтобы вы вспомнили запись элемента */
 .header__square-pic {
   height: 568px;
   width: 568px;
+  background-color: #2f80ed;
 }
 
 /* и элемента с модификатором вида ключ-значение */
