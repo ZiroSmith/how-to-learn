@@ -120,9 +120,11 @@
 
 
 .digits {
-  margin: 100px auto;
   display: flex;
+  flex-direction: row;
   flex-wrap: wrap;
+  justify-content: center;
+  margin-bottom: 100px;
 }
 
 .section-title {
@@ -140,18 +142,18 @@
   font-size: 24px;
   font-weight: normal;
   width: 60%;
-  margin-bottom: 60px;
 }
 
 .table {
   display: flex;
   flex-wrap: wrap;
+  justify-content: space-between;
   width: 1100px;
-  padding-bottom: 100px;
   margin: 0 auto;
 }
 
 .table_cell {
+  margin-top: 60px;
   width: 250px;
   margin-left: 0; /* Отступ слева в браузере IE и Opera */
   padding-left: 0; /* Отступ слева в браузере Firefox, Safari, Chrome */
@@ -168,6 +170,7 @@
   line-height: 1.2;
   font-size: 18px;
   font-weight: normal;
+  margin: 20px 0 0;
 }
 
 
