@@ -176,7 +176,6 @@
 }
 
 .table__text {
-  margin: 0;
   padding: 0;
   line-height: 1.2;
   font-size: 18px;
@@ -297,7 +296,6 @@
 }
 
 .table__text_theme_dark {
-  margin: 0;
   padding: 0;
   line-height: 1.2;
   font-size: 18px;
