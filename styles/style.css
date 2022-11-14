@@ -178,9 +178,7 @@
   flex-direction: column;
   align-items: center;
   margin-top: 100px;
-  height: 200vh;
-  min-height: 600px;
-  max-height: 756px;
+  height: 890px;
   background-color: #f2f2f2;
 }
 
@@ -217,8 +215,8 @@
   bottom: 0;
   left: 0;
   z-index: 1;
-  width: 867;
-  height: 636;
+  width: 867px;
+  height: 636px;
   z-index: 1;
 }
 
@@ -330,10 +328,6 @@
   margin: 18px 0;
 }
 
-.footer__column_content_info {
-
-}
-
 .footer__column-heading {
   line-height: 30px;
   font-size: 18px;
@@ -352,10 +346,6 @@
 .footer__columnn-link {
   text-decoration: none;
   color: white;
-}
-
-.footer__column_content_social {
-
 }
 
 .footer__social-icon {
