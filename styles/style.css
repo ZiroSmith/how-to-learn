@@ -27,7 +27,7 @@
   z-index: 3;
 }
 
-.header__logo {
+.logo_place_header {
   position: absolute;
   left: 64px;
   top: 30px;
@@ -54,7 +54,7 @@
   z-index: 3;
 }
 
-.link {
+.header__link {
   color: #2f80ed;
 }
 
