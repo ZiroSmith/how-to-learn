@@ -140,60 +140,91 @@
 }
 
 .techniques {
-
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 80%;
+  margin: 0 auto 0;
 }
 
 .section-title {
-
+ /*Одинаковы с блоками из других секций*/
 }
 
 .section-subtitle {
-
+  /*Одинаковы с блоками из других секций*/
 }
 
 .cards {
-
+  display: flex;
+  flex-wrap: wrap;
+  width: 920px;
+  column-gap: 100px;
 }
 
 .cards__item {
-
+  width: 240px;
+  text-align: center;
+  padding-top: 60px;
 }
 
 .cards__image {
-
+  width: 160px;
+  height: 160px;
+  border-radius: 50%;
 }
 
 .cards__title {
-
+  line-height: 1.15;
+  font-size: 24px;
+  font-weight: 600;
+  margin: 0;
+  padding: 0;
+  padding: 43px 0 16px;
 }
 
 .cards__description {
-
+  margin: 0;
+  padding: 0;
+  line-height: 23px;
+  font-size: 18px;
+  font-weight: normal;
 }
 
 .video {
-
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 0 auto 0;
 }
 
 .section-title {
-
+/*Одинаковы с блоками из других секций*/
 }
 
 .section-subtitle {
-
+/*Одинаковы с блоками из других секций*/
 }
 
 .video__iframes {
-
+  display: flex;
+  column-gap: 20px;
+  position: relative;
+  top: 50px;
 }
 
 .video__iframe {
-
+  width: 513px;
+  height: 316px;
 }
 
 .oakley {
-
+  display: flex;
+  justify-content: center;
+  background-color: #f2f2f2;
+  padding-top: 60px;
 }
+/*Одинаковы с блоками из других секций*/
 /* В блок выше подключены стили из ПР1(ту-колумнс)*/
 
 .feynman {
@@ -201,7 +232,6 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin-top: 100px;
   min-height: 890px;
   background-color: #f2f2f2;
 }
@@ -253,7 +283,6 @@
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: center;
-  margin-top: 100px;
 }
 
 .section-title {
@@ -264,7 +293,8 @@
   font-size: 60px;
   font-weight: 600;
   width: 60%;
-  margin-bottom: 20px;
+  padding-top: 100px;
+  padding-bottom: 20px;
 }
 
 .section-subtitle {
@@ -284,6 +314,7 @@
   width: 1100px;
   margin: 0 auto;
   padding: 0;
+  padding-bottom: 100px;
 }
 
 .table__cell {
@@ -311,43 +342,77 @@
 }
 
 .khan {
-
+  padding-top: 105px;
+  background-color: #f2f2f2;
 }
 
 .khan__container {
-
+  margin: 0 auto 0;
+  width: 80%;
 }
 
 .khan__author {
-
+  margin: 0;
+  padding: 0;
+  line-height: 42px;
+  font-size: 30px;
+  font-weight: normal;
 }
 
 .khan__title {
-
+  margin: 0;
+  padding: 0;
+  line-height: 1.15;
+  font-size: 60px;
+  font-weight: 600;
 }
 
 .khan__quote {
-
+  margin: 0;
+  padding: 0;
+  width: 790px;
+  line-height: 34px;
+  font-size: 24px;
+  font-weight: normal;
+  padding-top: 50px;
 }
 
 .khan__quote-author {
-
+  margin: 0;
+  padding: 0;
+  padding-top: 36px;
+  line-height: 1.15;
+  font-size: 24px;
+  font-weight: 600;
 }
 
 .khan__quote-author-subline {
-
+  margin: 0;
+  padding: 0;
+  padding-top: 10px;
+  line-height: 1.15;
+  font-size: 24px;
+  font-weight: normal;
 }
 
 .khan__book-container {
-
+  display: flex;
+  padding-top: 68px;
 }
 
 .khan__book-pic {
-
+  width: 608px;
+  height: 620px;
+  padding-right: 48px;
 }
 
 .khan__buy-link {
-
+  margin: 0;
+  padding: 0;
+  line-height: 42px;
+  font-size: 30px;
+  font-weight: normal;
+  color: #2f80ed;
 }
 
 .kaufman {
@@ -356,7 +421,6 @@
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: center;
-  padding-top: 90px;
   color: #ffffff;
   overflow: hidden;
   background-color: #1f1f1f;
