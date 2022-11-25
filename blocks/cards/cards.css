@@ -3,5 +3,5 @@
   flex-wrap: wrap;
   width: 920px;
   column-gap: 100px;
-  text-decoration: none;
+  margin: 0 auto 0;
 }
