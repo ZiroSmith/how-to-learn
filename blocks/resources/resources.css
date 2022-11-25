@@ -3,27 +3,3 @@
   flex-wrap: wrap;
   justify-content: center;
 }
-
-.section-title {
-/*Одинаковы с блоками из других секций*/
-}
-
-.section-subtitle {
-/*Одинаковы с блоками из других секций*/
-}
-
-.resources__logo-zone {
-  padding-top: 80px;
-  padding-bottom: 217px;
-  width: 1100px;
-  margin: 0 auto 0;
-}
-
-.resources__link {
-/*Нет необходимых к применению стилей*/
-}
-
-.resources__logo {
-  width: 270px;
-  height: 38px;
-}
