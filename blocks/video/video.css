@@ -1,0 +1,26 @@
+.video {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 0 auto 0;
+}
+
+.section-title {
+/*Одинаковы с блоками из других секций*/
+}
+
+.section-subtitle {
+/*Одинаковы с блоками из других секций*/
+}
+
+.video__iframes {
+  display: flex;
+  column-gap: 20px;
+  position: relative;
+  top: 50px;
+}
+
+.video__iframe {
+  width: 513px;
+  height: 316px;
+}
