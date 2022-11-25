@@ -4,16 +4,3 @@
   justify-content: center;
   margin: 0 auto 0;
 }
-
-.video__iframes {
-  display: flex;
-  column-gap: 20px;
-  position: relative;
-  top: 50px;
-}
-
-.video__iframe {
-  width: 513px;
-  height: 316px;
-  border: 0;
-}
